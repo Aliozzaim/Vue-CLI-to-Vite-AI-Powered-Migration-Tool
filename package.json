@@ -1,0 +1,23 @@
+{
+  "name": "vue-to-vite-ai",
+  "version": "1.0.0",
+  "description": "AI-powered tool to migrate Vue CLI projects to Vite",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "dotenv": "^16.0.3",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^9.1.5",
+    "openai": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "latest",
+    "jest": "^29.5.0",
+    "vite": "latest",
+    "vite-plugin-eslint": "latest"
+  }
+}
