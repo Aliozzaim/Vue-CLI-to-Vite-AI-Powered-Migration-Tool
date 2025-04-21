@@ -41,7 +41,7 @@ PROJECT_PATH='your-vue-cli-project-path'
 
 Run the migration tool:
 
-node src/index.js :)
+node src/index.js
 
 This will automatically migrate your Vue CLI project to Vite within seconds.
 
